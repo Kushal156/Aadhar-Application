@@ -43,7 +43,7 @@ public class AlertController {
 		log.info("Saved AuditTrail ResponseDto :: {}", responseDto.toString());
 		return new ResponseEntity<AlertResponseDTO>(responseDto, HttpStatus.OK);
 	}
-
+      
 	// ---------------- Geo Location ----------------
 
 	@PostMapping("/gps-status")
